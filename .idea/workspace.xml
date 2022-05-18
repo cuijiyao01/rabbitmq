@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33ee2f37-31b9-4639-a38f-2dd620da7e35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/bin/travisci/before_install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/project.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/emit_log.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/emit_log_direct.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/emit_log_topic.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/new_task.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/receive.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/receive_logs.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/receive_logs_direct.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/receive_logs_topic.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/rpc_client.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/rpc_server.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/send.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/clojure/src/rabbitmq/tutorials/worker.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/emit-log-direct.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/emit-log-topic.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/emit-log.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/new-task.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/receive-logs-direct.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/receive-logs-topic.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/receive-logs.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/receive.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/rpc-client.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/rpc-server.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/send.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/common-lisp/worker.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/emit_log.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/emit_log_direct.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/emit_log_topic.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/new_task.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/receive.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/receive_logs.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/receive_logs_direct.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/receive_logs_topic.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/rpc_client.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/rpc_server.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/send.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dart/worker.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/1_Receive/1_Receive.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/1_Receive/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/1_Send/1_Send.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/1_Send/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/2_NewTask/2_NewTask.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/2_NewTask/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/2_Worker/2_Worker.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/2_Worker/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/3_EmitLog/3_EmitLog.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/3_EmitLog/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/3_ReceiveLogs/3_ReceiveLogs.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/3_ReceiveLogs/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/4_EmitLogDirect/4_EmitLogDirect.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/4_EmitLogDirect/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/4_ReceiveLogsDirect/4_ReceiveLogsDirect.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/4_ReceiveLogsDirect/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/5_EmitLogTopic/5_EmitLogTopic.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/5_EmitLogTopic/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/5_ReceiveLogsTopic/5_ReceiveLogsTopic.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/5_ReceiveLogsTopic/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/6_RPCClient/6_RPCClient.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/6_RPCClient/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/6_RPCClient/RPCClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/6_RPCServer/6_RPCServer.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/6_RPCServer/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/7_PublisherConfirms/7_PublisherConfirms.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/7_PublisherConfirms/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet-visual-studio/RabbitMQ.Tutorials.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/EmitLog/EmitLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/EmitLog/EmitLog.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/EmitLogDirect/EmitLogDirect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/EmitLogDirect/EmitLogDirect.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/EmitLogTopic/EmitLogTopic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/EmitLogTopic/EmitLogTopic.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/NewTask/NewTask.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/NewTask/NewTask.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/PublisherConfirms/PublisherConfirms.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/PublisherConfirms/PublisherConfirms.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/RPCClient/RPCClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/RPCClient/RPCClient.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/RPCServer/RPCServer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/RPCServer/RPCServer.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/Receive/Receive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/Receive/Receive.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/ReceiveLogs/ReceiveLogs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/ReceiveLogs/ReceiveLogs.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/ReceiveLogsDirect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/ReceiveLogsDirect.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/ReceiveLogsTopic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/ReceiveLogsTopic.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/Receiver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/Send/Send.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/Send/Send.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/Worker/Worker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/Worker/Worker.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/recompile.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/recompile.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/recompile.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/dotnet/update.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/emit_log.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/emit_log_direct.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/emit_log_topic.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/new_task.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/receive.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/receive_logs.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/receive_logs_direct.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/receive_logs_topic.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/rpc_client.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/rpc_server.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/send.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/elixir/worker.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/emit_log.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/emit_log_direct.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/emit_log_topic.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/erlang.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/new_task.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/receive.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/receive_logs.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/receive_logs_direct.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/receive_logs_topic.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/send.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/erlang/worker.erl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/emit_log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/emit_log_direct.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/emit_log_topic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/new_task.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/receive.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/receive_logs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/receive_logs_direct.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/receive_logs_topic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/rpc_client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/rpc_server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/send.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/go/worker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/emitLog.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/emitLogDirect.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/emitLogTopic.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/newTask.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/receive.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/receiveLogs.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/receiveLogsDirect.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/receiveLogsTopic.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/rpcClient.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/rpcServer.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/send.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/haskell/worker.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/emit_log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/emit_log_direct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/emit_log_topic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/new_task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/receive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/receive_logs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/receive_logs_direct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/receive_logs_topic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/rpc_client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/rpc_server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/send.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/javascript-nodejs/src/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/EmitLog.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/EmitLogDirect.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/EmitLogHeader.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/EmitLogTopic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/NewTask.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/RPCClient.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/RPCServer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/ReceiveLogHeader.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/ReceiveLogs.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/ReceiveLogsDirect.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/ReceiveLogsTopic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/Recv.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/Send.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/kotlin/src/main/kotlin/Worker.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/bump_dependencies.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1/ViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1/ViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial1/tutorial1/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2/ViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2/ViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial2/tutorial2/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3/ViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3/ViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial3/tutorial3/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4/ViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4/ViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial4/tutorial4/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5/ViewController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5/ViewController.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/objective-c/tutorial5/tutorial5/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/emit_log.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/emit_log_direct.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/emit_log_topic.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/new_task.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/receive.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/receive_logs.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/receive_logs_direct.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/receive_logs_topic.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/rpc_client.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/rpc_server.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/send.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/perl/worker.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/emit_log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/emit_log_direct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/emit_log_topic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/new_task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/receive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/receive_log_topic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/receive_logs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/receive_logs_direct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/receive_logs_topic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/rpc_client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/rpc_server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-amqp/worker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/emit_log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/emit_log_direct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/emit_log_topic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/new_task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/receive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/receive_logs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/receive_logs_direct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/receive_logs_topic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/rpc_client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/rpc_server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php-interop/worker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/emit_log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/emit_log_direct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/emit_log_topic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/new_task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/receive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/receive_logs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/receive_logs_direct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/receive_logs_topic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/rpc_client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/rpc_server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/php/worker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/emit_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/emit_log_direct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/emit_log_topic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/new_task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/receive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/receive_logs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/receive_logs_direct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/receive_logs_topic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/rpc_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/rpc_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/send.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/python/worker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/emit_log.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/emit_log_direct.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/emit_log_topic.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/new_task.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/receive.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/receive_logs.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/receive_logs_direct.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/receive_logs_topic.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/rpc_client.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/rpc_server.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/send.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/ruby/worker.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/01-hello-world/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/01-hello-world/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/01-hello-world/src/bin/receive.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/01-hello-world/src/bin/send.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/02-work-queues/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/02-work-queues/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/02-work-queues/src/bin/new-task.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/02-work-queues/src/bin/worker.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/03-publish-subscribe/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/03-publish-subscribe/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/03-publish-subscribe/src/bin/publish.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/03-publish-subscribe/src/bin/subscribe.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/04-routing/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/04-routing/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/04-routing/src/bin/emit-direct.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/04-routing/src/bin/receive-direct.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/05-topics/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/05-topics/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/05-topics/src/bin/emit-topic.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/05-topics/src/bin/receive-topic.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/rust/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/EmitLog.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/EmitLogDirect.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/EmitLogHeader.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/EmitLogTopic.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/NewTask.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/RPCClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/RPCServer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/ReceiveLogHeader.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/ReceiveLogs.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/ReceiveLogsDirect.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/ReceiveLogsTopic.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/Recv.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/Send.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/scala/src/main/scala/Worker.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/soapui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/soapui/RabbitMQ-tutorials-soapui-project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/soapui/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/bump_dependencies.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/tutorial1.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/tutorial1.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/tutorial1/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/tutorial1/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/tutorial1/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/tutorial1/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/tutorial1/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial1/tutorial1/ViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/tutorial2.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/tutorial2.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/tutorial2/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/tutorial2/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/tutorial2/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/tutorial2/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/tutorial2/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial2/tutorial2/ViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/tutorial3.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/tutorial3.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/tutorial3/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/tutorial3/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/tutorial3/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/tutorial3/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/tutorial3/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial3/tutorial3/ViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/tutorial4.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/tutorial4.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/tutorial4/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/tutorial4/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/tutorial4/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/tutorial4/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/tutorial4/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial4/tutorial4/ViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/Cartfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/Cartfile.resolved" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/tutorial5.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/tutorial5.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/tutorial5/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/tutorial5/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/tutorial5/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/tutorial5/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/tutorial5/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-tutorials/swift/tutorial5/tutorial5/ViewController.swift" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/rabbitmq-tutorials" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3/libexec" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hjJt5h5vcJJySpqCAey98J5q6E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_rabbitmq" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot_rabbitmq/springboot_rabbitmq_consumer/src/main/java/com/example/springboot_rabbitmq_consumer/service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot_rabbitmq" />
+      <recent name="$PROJECT_DIR$/springboot_rabbitmq/springboot_rabbitmq_consumer" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringbootRabbitmqProviderApplicationTests.test">
+    <configuration name="SpringbootRabbitmqConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_rabbitmq_consumer.SpringbootRabbitmqConsumerApplication" />
+      <module name="springboot_rabbitmq_consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_rabbitmq_consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_rabbitmq_provider.SpringbootRabbitmqProviderApplication" />
+      <module name="springboot_rabbitmq_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_rabbitmq_provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_rabbitmq.SpringbootRabbitmqApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqProviderApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_rabbitmq_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_rabbitmq_provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_rabbitmq_provider" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_rabbitmq_provider.SpringbootRabbitmqProviderApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqProviderApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_rabbitmq_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_rabbitmq_provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_rabbitmq_provider" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_rabbitmq_provider.SpringbootRabbitmqProviderApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringbootRabbitmqConsumerApplication" />
+      <item itemvalue="Application.SpringbootRabbitmqProviderApplication" />
+      <item itemvalue="JUnit.SpringbootRabbitmqApplicationTests" />
+      <item itemvalue="JUnit.SpringbootRabbitmqProviderApplicationTests" />
+      <item itemvalue="JUnit.SpringbootRabbitmqProviderApplicationTests.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringbootRabbitmqProviderApplicationTests.test" />
+        <item itemvalue="Application.SpringbootRabbitmqConsumerApplication" />
+        <item itemvalue="JUnit.SpringbootRabbitmqProviderApplicationTests" />
+        <item itemvalue="Application.SpringbootRabbitmqProviderApplication" />
+        <item itemvalue="JUnit.SpringbootRabbitmqApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33ee2f37-31b9-4639-a38f-2dd620da7e35" name="Default Changelist" comment="" />
+      <created>1600518779210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600518779210</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="123" key="#Project_Structure" timestamp="1600525157556">
+      <screen x="0" y="23" width="1792" height="1035" />
+    </state>
+    <state x="396" y="123" key="#Project_Structure/0.23.1792.1031@0.23.1792.1031" timestamp="1600519580165" />
+    <state x="396" y="123" key="#Project_Structure/0.23.1792.1035@0.23.1792.1035" timestamp="1600525157556" />
+    <state x="360" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600520067096">
+      <screen x="0" y="23" width="1792" height="1029" />
+    </state>
+    <state x="360" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1029@0.23.1792.1029" timestamp="1600520067096" />
+    <state x="360" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1600519918953" />
+    <state x="904" y="23" width="752" height="1338" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600775234706">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="904" y="23" width="752" height="1338" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1338/-1792.343.1792.1097@0.23.2560.1338" timestamp="1600775234706" />
+    <state x="904" y="23" width="752" height="1347" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1347@0.23.2560.1347" timestamp="1600691175579" />
+    <state width="1737" height="324" key="GridCell.Tab.0.bottom" timestamp="1600863224419">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1737" height="324" key="GridCell.Tab.0.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1600863224419" />
+    <state width="1737" height="324" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1600861974031" />
+    <state width="1737" height="258" key="GridCell.Tab.0.bottom/0.23.1792.1029@0.23.1792.1029" timestamp="1600520440243" />
+    <state width="1737" height="260" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1600526468247" />
+    <state width="1737" height="260" key="GridCell.Tab.0.bottom/0.23.1792.1035@0.23.1792.1035" timestamp="1600524694681" />
+    <state width="1737" height="258" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1600521467334" />
+    <state width="2505" height="324" key="GridCell.Tab.0.bottom/0.23.2560.1338/-1792.343.1792.1097@0.23.2560.1338" timestamp="1600777692182" />
+    <state width="2505" height="360" key="GridCell.Tab.0.bottom/0.23.2560.1345/-1792.343.1792.1097@0.23.2560.1345" timestamp="1600741016275" />
+    <state width="2505" height="360" key="GridCell.Tab.0.bottom/0.23.2560.1345@0.23.2560.1345" timestamp="1600692675056" />
+    <state width="2505" height="360" key="GridCell.Tab.0.bottom/0.23.2560.1347@0.23.2560.1347" timestamp="1600692355813" />
+    <state width="1737" height="257" key="GridCell.Tab.0.bottom/0.23.2560.1348/-1792.343.1792.1097@0.23.2560.1348" timestamp="1600688524270" />
+    <state width="2505" height="362" key="GridCell.Tab.0.bottom/0.23.2560.1348@0.23.2560.1348" timestamp="1600690769461" />
+    <state width="1737" height="324" key="GridCell.Tab.0.center" timestamp="1600863224418">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1737" height="324" key="GridCell.Tab.0.center/0.23.1792.1025@0.23.1792.1025" timestamp="1600863224418" />
+    <state width="1737" height="324" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1600861974031" />
+    <state width="1737" height="258" key="GridCell.Tab.0.center/0.23.1792.1029@0.23.1792.1029" timestamp="1600520440242" />
+    <state width="1737" height="260" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1600526468246" />
+    <state width="1737" height="260" key="GridCell.Tab.0.center/0.23.1792.1035@0.23.1792.1035" timestamp="1600524694680" />
+    <state width="1737" height="258" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1600521467334" />
+    <state width="2505" height="324" key="GridCell.Tab.0.center/0.23.2560.1338/-1792.343.1792.1097@0.23.2560.1338" timestamp="1600777692181" />
+    <state width="2505" height="360" key="GridCell.Tab.0.center/0.23.2560.1345/-1792.343.1792.1097@0.23.2560.1345" timestamp="1600741016275" />
+    <state width="2505" height="360" key="GridCell.Tab.0.center/0.23.2560.1345@0.23.2560.1345" timestamp="1600692675056" />
+    <state width="2505" height="360" key="GridCell.Tab.0.center/0.23.2560.1347@0.23.2560.1347" timestamp="1600692355812" />
+    <state width="1737" height="257" key="GridCell.Tab.0.center/0.23.2560.1348/-1792.343.1792.1097@0.23.2560.1348" timestamp="1600688524269" />
+    <state width="2505" height="362" key="GridCell.Tab.0.center/0.23.2560.1348@0.23.2560.1348" timestamp="1600690769461" />
+    <state width="1737" height="324" key="GridCell.Tab.0.left" timestamp="1600863224417">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1737" height="324" key="GridCell.Tab.0.left/0.23.1792.1025@0.23.1792.1025" timestamp="1600863224417" />
+    <state width="1737" height="324" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1600861974030" />
+    <state width="1737" height="258" key="GridCell.Tab.0.left/0.23.1792.1029@0.23.1792.1029" timestamp="1600520440241" />
+    <state width="1737" height="260" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1600526468246" />
+    <state width="1737" height="260" key="GridCell.Tab.0.left/0.23.1792.1035@0.23.1792.1035" timestamp="1600524694679" />
+    <state width="1737" height="258" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1600521467334" />
+    <state width="2505" height="324" key="GridCell.Tab.0.left/0.23.2560.1338/-1792.343.1792.1097@0.23.2560.1338" timestamp="1600777692181" />
+    <state width="2505" height="360" key="GridCell.Tab.0.left/0.23.2560.1345/-1792.343.1792.1097@0.23.2560.1345" timestamp="1600741016275" />
+    <state width="2505" height="360" key="GridCell.Tab.0.left/0.23.2560.1345@0.23.2560.1345" timestamp="1600692675055" />
+    <state width="2505" height="360" key="GridCell.Tab.0.left/0.23.2560.1347@0.23.2560.1347" timestamp="1600692355810" />
+    <state width="1737" height="257" key="GridCell.Tab.0.left/0.23.2560.1348/-1792.343.1792.1097@0.23.2560.1348" timestamp="1600688524269" />
+    <state width="2505" height="362" key="GridCell.Tab.0.left/0.23.2560.1348@0.23.2560.1348" timestamp="1600690769460" />
+    <state width="1737" height="324" key="GridCell.Tab.0.right" timestamp="1600863224418">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1737" height="324" key="GridCell.Tab.0.right/0.23.1792.1025@0.23.1792.1025" timestamp="1600863224418" />
+    <state width="1737" height="324" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1600861974031" />
+    <state width="1737" height="258" key="GridCell.Tab.0.right/0.23.1792.1029@0.23.1792.1029" timestamp="1600520440242" />
+    <state width="1737" height="260" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1600526468246" />
+    <state width="1737" height="260" key="GridCell.Tab.0.right/0.23.1792.1035@0.23.1792.1035" timestamp="1600524694680" />
+    <state width="1737" height="258" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1600521467334" />
+    <state width="2505" height="324" key="GridCell.Tab.0.right/0.23.2560.1338/-1792.343.1792.1097@0.23.2560.1338" timestamp="1600777692182" />
+    <state width="2505" height="360" key="GridCell.Tab.0.right/0.23.2560.1345/-1792.343.1792.1097@0.23.2560.1345" timestamp="1600741016275" />
+    <state width="2505" height="360" key="GridCell.Tab.0.right/0.23.2560.1345@0.23.2560.1345" timestamp="1600692675056" />
+    <state width="2505" height="360" key="GridCell.Tab.0.right/0.23.2560.1347@0.23.2560.1347" timestamp="1600692355812" />
+    <state width="1737" height="257" key="GridCell.Tab.0.right/0.23.2560.1348/-1792.343.1792.1097@0.23.2560.1348" timestamp="1600688524270" />
+    <state width="2505" height="362" key="GridCell.Tab.0.right/0.23.2560.1348@0.23.2560.1348" timestamp="1600690769461" />
+    <state width="2505" height="445" key="GridCell.Tab.1.bottom" timestamp="1600741016269">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="2505" height="445" key="GridCell.Tab.1.bottom/0.23.2560.1345/-1792.343.1792.1097@0.23.2560.1345" timestamp="1600741016269" />
+    <state width="2505" height="445" key="GridCell.Tab.1.bottom/0.23.2560.1347@0.23.2560.1347" timestamp="1600691761710" />
+    <state width="2505" height="445" key="GridCell.Tab.1.center" timestamp="1600741016268">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="2505" height="445" key="GridCell.Tab.1.center/0.23.2560.1345/-1792.343.1792.1097@0.23.2560.1345" timestamp="1600741016268" />
+    <state width="2505" height="445" key="GridCell.Tab.1.center/0.23.2560.1347@0.23.2560.1347" timestamp="1600691761709" />
+    <state width="2505" height="445" key="GridCell.Tab.1.left" timestamp="1600741016267">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="2505" height="445" key="GridCell.Tab.1.left/0.23.2560.1345/-1792.343.1792.1097@0.23.2560.1345" timestamp="1600741016267" />
+    <state width="2505" height="445" key="GridCell.Tab.1.left/0.23.2560.1347@0.23.2560.1347" timestamp="1600691761709" />
+    <state width="2505" height="445" key="GridCell.Tab.1.right" timestamp="1600741016268">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="2505" height="445" key="GridCell.Tab.1.right/0.23.2560.1345/-1792.343.1792.1097@0.23.2560.1345" timestamp="1600741016268" />
+    <state width="2505" height="445" key="GridCell.Tab.1.right/0.23.2560.1347@0.23.2560.1347" timestamp="1600691761710" />
+    <state x="549" y="279" key="IDE.errors.dialog" timestamp="1600909274347">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="384" y="220" key="IDE.errors.dialog/0.23.1792.1029@0.23.1792.1029" timestamp="1600520490679" />
+    <state x="384" y="221" key="IDE.errors.dialog/0.23.1792.1035@0.23.1792.1035" timestamp="1600525402831" />
+    <state x="384" y="221" key="IDE.errors.dialog/0.23.1792.1036@0.23.1792.1036" timestamp="1600524368238" />
+    <state x="549" y="279" key="IDE.errors.dialog/0.23.2560.1338/-1792.343.1792.1097@0.23.2560.1338" timestamp="1600909274347" />
+    <state x="449" y="173" key="NewModule_or_Project.wizard" timestamp="1600593667282">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="449" y="173" key="NewModule_or_Project.wizard/0.23.1792.1027@0.23.1792.1027" timestamp="1600593667282" />
+    <state x="449" y="173" key="NewModule_or_Project.wizard/0.23.1792.1029@0.23.1792.1029" timestamp="1600520262974" />
+    <state x="449" y="173" key="NewModule_or_Project.wizard/0.23.1792.1031@0.23.1792.1031" timestamp="1600519152199" />
+    <state x="449" y="174" key="NewModule_or_Project.wizard/0.23.1792.1035@0.23.1792.1035" timestamp="1600525241833" />
+    <state x="449" y="174" key="NewModule_or_Project.wizard/0.23.1792.1036@0.23.1792.1036" timestamp="1600524203441" />
+    <state x="256" y="23" width="1280" height="1027" key="SettingsEditor" timestamp="1600593676772">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="256" y="23" width="1280" height="1027" key="SettingsEditor/0.23.1792.1027@0.23.1792.1027" timestamp="1600593676772" />
+    <state x="256" y="23" width="1280" height="1029" key="SettingsEditor/0.23.1792.1029@0.23.1792.1029" timestamp="1600520416277" />
+    <state x="256" y="23" width="1280" height="1031" key="SettingsEditor/0.23.1792.1031@0.23.1792.1031" timestamp="1600519861345" />
+    <state x="256" y="23" width="1280" height="1035" key="SettingsEditor/0.23.1792.1035@0.23.1792.1035" timestamp="1600525243620" />
+    <state x="256" y="23" width="1280" height="1036" key="SettingsEditor/0.23.1792.1036@0.23.1792.1036" timestamp="1600524206899" />
+    <state x="696" y="310" width="1176" height="770" key="find.popup" timestamp="1600776045276">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="487" y="243" width="823" height="590" key="find.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1600592551754" />
+    <state x="487" y="245" width="823" height="590" key="find.popup/0.23.1792.1036@0.23.1792.1036" timestamp="1600525728228" />
+    <state x="696" y="310" width="1176" height="770" key="find.popup/0.23.2560.1338/-1792.343.1792.1097@0.23.2560.1338" timestamp="1600776045276" />
+    <state x="696" y="312" width="1176" height="775" key="find.popup/0.23.2560.1347@0.23.2560.1347" timestamp="1600691523797" />
+    <state x="696" y="312" width="1176" height="775" key="find.popup/0.23.2560.1348@0.23.2560.1348" timestamp="1600689325560" />
+    <state x="98" y="217" key="new project wizard" timestamp="1600593741803">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="98" y="217" key="new project wizard/0.23.1792.1027@0.23.1792.1027" timestamp="1600593741803" />
+    <state x="98" y="218" key="new project wizard/0.23.1792.1029@0.23.1792.1029" timestamp="1600520149498" />
+    <state x="98" y="219" key="new project wizard/0.23.1792.1035@0.23.1792.1035" timestamp="1600525151096" />
+    <state x="477" y="23" width="838" height="1024" key="search.everywhere.popup" timestamp="1600592548297">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="477" y="23" width="838" height="1024" key="search.everywhere.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1600592548297" />
+    <state x="477" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1792.1036@0.23.1792.1036" timestamp="1600525742248" />
+  </component>
+</project>

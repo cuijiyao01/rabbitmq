@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot_rabbitmq_provider" />
+        <module name="rabbitmq-tutorial" />
+        <module name="rabbitmq-tutorials" />
+        <module name="springboot_rabbitmq_consumer" />
+        <module name="springboot_rabbitmq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbitmq-tutorial" target="1.8" />
+      <module name="rabbitmq-tutorials" target="1.8" />
+      <module name="springboot_rabbitmq" target="1.8" />
+      <module name="springboot_rabbitmq_consumer" target="1.8" />
+      <module name="springboot_rabbitmq_consumer (1)" target="1.8" />
+      <module name="springboot_rabbitmq_provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rabbitmq-tutorials" options="-parameters" />
+      <module name="springboot_rabbitmq" options="-parameters" />
+      <module name="springboot_rabbitmq_consumer" options="-parameters" />
+      <module name="springboot_rabbitmq_consumer (1)" options="-parameters" />
+      <module name="springboot_rabbitmq_provider" options="-parameters" />
+    </option>
+  </component>
+</project>
